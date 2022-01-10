@@ -1,0 +1,408 @@
+/* Global Font */
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Raleway', sans-serif;
+}
+
+.col-lg-8 h1 a.judul-konten, .col-lg-8 h3 a.judul-konten{
+  text-decoration: none;
+  color: #1f2958;
+  transition: color 0.2s linear 0s;
+}
+
+.col-lg-8 h1 a.judul-konten:hover, .col-lg-8 h3 a.judul-konten:hover, .argadara h4, .argadara h2, .front-widget h1{
+  color: #bf3939;
+}
+
+
+
+/* Other */
+.col-lg-8 hr{
+    margin: 40px auto;
+}
+
+body, html{
+  height: 100%;
+}
+
+
+
+/* Topnav */
+.navbar img{
+    height: 100px;
+    width: auto;
+}
+
+.navbar, .topnav{
+    background-color: #1f2958;
+}
+
+.navbar .navbar-nav li a.nav-link{
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s linear 0s;
+}
+
+.navbar .navbar-nav li a.nav-link:hover{
+    color: #bf3939;
+    border-bottom: 1px solid #bf3939;
+}
+
+
+
+/* Konten Excerpt */
+.col-lg-8 p.meta{
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;;
+}
+
+.col-lg-8 p.isi{
+    margin: 0px;
+}
+
+
+/* Footer */
+.site-footer{
+  background-color:#1f2958;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:white;
+}
+
+.site-footer hr{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+
+.site-footer hr.lgall{
+  margin:20px 0
+}
+
+.site-footer h6{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.site-footer a{
+  color:white;
+}
+
+.site-footer a:hover{
+  color:#bf3939;
+  text-decoration:none;
+}
+
+.footer-links{
+  padding-left:0;
+  list-style:none
+}
+
+.footer-links li{
+  display:block
+}
+
+.footer-links a{
+  color:white;
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+  color: #bf3939;
+  text-decoration:none;
+}
+
+.footer-links.inline li{
+  display:inline-block
+}
+
+.site-footer .social-icons{
+  text-align:right
+}
+
+.site-footer .social-icons a{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:black;
+}
+
+.copyright-text{
+  margin:0
+}
+
+@media (max-width:991px){
+  .site-footer [class^=col-]{
+    margin-bottom:30px
+  }
+}
+
+@media (max-width:767px){
+  .site-footer{
+    padding-bottom:0
+  }
+
+  .site-footer .copyright-text,.site-footer .social-icons{
+    text-align:center
+  }
+}
+
+.social-icons{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+
+.social-icons li{
+  display:inline-block;
+  margin-bottom:4px
+}
+
+.social-icons li.title{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+
+.social-icons a{
+  background-color:#eceeef;
+  color:white;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover{
+  color:#fff;
+  background-color:#29aafe
+}
+
+.social-icons.size-lg a{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+
+.social-icons a.youtube:hover{
+  background-color:#f7111d
+}
+
+.social-icons a.twitter:hover{
+  background-color:#00aced
+}
+
+.social-icons a.instagram:hover{
+  background-color:#bb0096
+}
+
+.social-icons a.line:hover{
+  background-color:#40bf05
+}
+
+@media (max-width:767px){
+  .social-icons li.title{
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+/* Pagination */
+.paging a, .paging span{
+  margin: auto 15px;
+}
+
+.paging a{
+  text-decoration: none;
+  color: #bf3939;
+}
+
+.paging a:hover{
+  color: black;
+}
+
+
+
+/* Index */
+p.meta a{
+  color: #bf3939;
+  transition: color 0.2s linear 0s;
+
+}
+
+p.meta a:hover{
+  color: #1f2958;
+}
+
+.isi p{
+  margin: 0px;
+}
+
+
+/* Single Page */
+.col-lg-12 img{
+  max-width: 100%;
+  height: auto;
+}
+
+.col-lg-12 h1.judul-konten{
+  color: #1f2958;
+  font-size: 60px;
+}
+
+.col-lg-12 p{
+  font-size: 20px;
+}
+
+.col-lg-12 p.meta{
+  font-size: 17px;
+  margin-bottom: 35px;
+}
+
+/* Single Page Video */
+figure.wp-block-embed-youtube, .wp-block-embed__wrapper{
+  text-align: center;
+}
+
+
+/* Search */
+.sidebar .tombol, .informasi .tombol{
+  background-color: #1f2958;
+  color: white;
+}
+
+.sidebar .wp-loop img{
+  height: auto;
+  width: 70px;
+}
+
+/* Sidebar Dara */
+.judul-kecil a{
+  color: #bf3939;
+  text-decoration: none;
+  transition: color 0.2s linear 0s;
+}
+
+.judul-kecil a:hover{
+  color: #1f2958;
+}
+
+
+
+/* Widget */
+.sidebar-module h4{
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 35px;
+}
+
+
+/* Global Blog */
+.blog{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Template AM */
+.dara img{
+  height: 200px;
+  width: auto;
+}
+
+.dara a.btn{
+  background-color: #1f2958;
+  color: white;
+  font-size: 20px;
+  transition: background-color 0.2s linear 0s;
+}
+
+.dara a.btn:hover{
+  background-color: #0d1330;
+}
+
+.dara a i{
+  font-size: 30px;
+}
+
+.blog-am img{
+  height: 100px;
+  width: auto;
+}
+
+/* Front Page */
+.front{
+  background-image: url("../img/cover.jpg");
+  color: white;
+  background-size: cover;
+  background-position-y: px;
+  margin-bottom: 50px;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+.front p{
+  color:#bf3939;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.front hr{
+  border-color:#bf3939;
+  border-width: 5px;
+}
+
+.argadara img{
+  width: 165px;
+  height: auto;
+}
+
+
+.informasi .col-lg-4 h2{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+/* Hubungi Kami */
+.contact{
+  background-image: url("../img/cover.jpg");
+  color: white;
+  background-size: cover;
+  background-position-y: px;
+  margin-bottom: 50px;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+.contact i{
+  font-size: 25px;
+}
+
+.contact p{
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+/* Merchandise */
+.merch{
+  background-image: url("../img/cover.jpg");
+  color: white;
+}
